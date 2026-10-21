@@ -11,7 +11,7 @@ const repo = join(here, "..");
 
 const TOOL_NAME = "get_feature_board_requests";
 const ACTOR_ID = "rcHF5gj5r2Vqnry35";
-const ARGS = {"company_domain": "example.com", "max_ads": "5"};
+const ARGS = {"company_domain": "clickup.com", "max_requests": "20"};
 
 // Call the tool over stdio against the built server with fetch replaced by a
 // fake Apify API (test/mock-fetch.mjs). Returns the tools/call result and the
