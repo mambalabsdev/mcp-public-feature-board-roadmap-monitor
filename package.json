@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-public-feature-board-roadmap-monitor",
+  "version": "1.0.0",
+  "description": "MCP server for Public Feature Board and Roadmap Monitor. Find a company's public feature board (Canny, Featurebase, Frill, UserVoice, Productboard) and get its top requests with votes and status, plus the integrations customers ask for. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-public-feature-board-roadmap-monitor": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "feature-requests",
+    "canny",
+    "roadmap",
+    "product-feedback",
+    "integrations",
+    "competitor-research",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/public-feature-board-roadmap-monitor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-public-feature-board-roadmap-monitor"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-public-feature-board-roadmap-monitor"
+}

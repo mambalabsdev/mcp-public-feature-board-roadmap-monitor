@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-public-feature-board-roadmap-monitor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-public-feature-board-roadmap-monitor"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
