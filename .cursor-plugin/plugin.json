@@ -1,7 +1,7 @@
 {
   "name": "mcp-public-feature-board-roadmap-monitor",
   "displayName": "Public Feature Board and Roadmap Monitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Public Feature Board and Roadmap Monitor. Find a company's public feature board (Canny, Featurebase, Frill, UserVoice, Productboard) and get its top requests with votes and status, plus the integrations customers ask for. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs",
